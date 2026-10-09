@@ -1890,6 +1890,7 @@ CAsyncSocket* pOtherSocket)
 	m_hSocket = INVALID_SOCKET;
 	pOtherSocket->m_hSocket = hSocket;
 	AttachHandle (hSocket, pOtherSocket, FALSE);
+	pOtherSocket->AsyncSelect();
 	#endif
 }
 
