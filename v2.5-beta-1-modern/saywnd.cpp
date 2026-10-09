@@ -262,7 +262,7 @@ void CSayCtrl::OnChar(UINT nChar, UINT nRepCnt, UINT nFlags)
 		}
 	}
 
-	if (!bCtrlDown && _istspace(nChar) && LineLength() == 0) 
+	if (!bCtrlDown && _istspace(nChar) && GetWindowTextLength() == 0)
 		return; // don't let people start out w/ spaces or tabs
 
 	CRtfCtrl::OnChar(nChar, nRepCnt, nFlags);
