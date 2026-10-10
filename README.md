@@ -49,6 +49,8 @@ If you want to jump right in and try Comic Chat without cloning the source and b
 1. You can download Microsoft Comic Chat 2.5 from [Mermaid Elizabeth's Microsoft Chat Resources Link Page](https://mermeliz.com/). This is the version that shipped in the early 2000s.
 2. You can download an [unofficial modern build](https://github.com/microsoft/comic-chat/releases/tag/unofficial-modern-builds-2026-07) of version 1.0 and version 2.5b1. These versions have been modernized with support for high-resolution monitors.
 
+If you want to run the unofficial modern build on Linux, see [LINUX.md](./v2.5-beta-1-modern/LINUX.md).
+
 ## IRC servers
 
 Mermaid Elizabeth maintains a list of [IRC servers](https://mermeliz.com/srvr_rms.htm) that work with Comic Chat.
